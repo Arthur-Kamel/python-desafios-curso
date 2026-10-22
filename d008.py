@@ -1,0 +1,5 @@
+print('='*20)
+print('Conversor de medidas')
+print('='*20)
+m = float(input('Digite um valor em metros: '))
+print('A medida corresponde a:\n{:.3f}km\n{:.2f}hm\n{:.1f}dam\n{}m\n{:.0f}dm\n{:.0f}cm\n{:.0f}mm'.format((m / 1000), (m / 100), (m / 10), m, (m * 10), (m * 100), (m * 1000)))

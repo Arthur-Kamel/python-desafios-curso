@@ -1,0 +1,5 @@
+print('Mostrando o primeiro e o último nome\n')
+n = str(input('Digite um nome: ')).strip()
+n1 = n.split()
+print('Primeiro nome: {}'.format(n1[0]))
+print('Último nome: {}'.format(n1[-1]))

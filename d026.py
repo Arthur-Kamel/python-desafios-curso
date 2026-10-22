@@ -1,0 +1,7 @@
+print('Análise de frases\n')
+n = str(input('Digite uma frase: ')).strip().lower().split()
+n = ''.join(n)
+print('Primeiro nome: {}'.format(n))
+print('Quantidade de letras "a" possuem: {}'.format(n.count('a')))
+print('localização da primeira letra "a": {}'.format(n.find('a')+1))
+print('localização da última letra "a": {}'.format(n.rfind('a')+1))
